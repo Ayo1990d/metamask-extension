@@ -10,7 +10,7 @@ module.exports = function (config) {
     // browserNoActivityTimeout: 100000000,
 
     browserConsoleLogOptions: {
-      terminal: false,
+      terminal: 'error',
     },
 
     // frameworks to use
